@@ -116,6 +116,3 @@ Add these to your `.env` file:
 - To reset notifications, remove `lms_agent.db` (you will lose history).
 - If the program doesn't detect changes, check that `CHECK_INTERVAL_MINUTES` is set appropriately in `.env`.
 =======
-# NUST-LMS-Agent
-Local Python agent for NUST Moodle that tracks course updates and assignment deadlines and emails notifications—secure, read-only, scheduler-friendly.
->>>>>>> 411e23e7fe7d9c034f0a0f2eef9d4a37f9d887d8
