@@ -1,0 +1,7 @@
+playwright==1.43.0
+python-dotenv==1.0.1
+pydantic==2.6.1
+pydantic-settings==2.12.0
+tenacity==8.2.3
+python-dateutil==2.9.0
+
