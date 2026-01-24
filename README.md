@@ -1,3 +1,4 @@
+
 # NUST LMS Watcher (Local Agent)
 
 Local-only agent that logs into the official NUST Moodle LMS with your credentials, monitors selected courses for new uploads and assignment deadlines, and emails you notifications via **SMTP**. Runs once per invocation (Task Scheduler/Cron-friendly). You keep your credentials locally; nothing is sent anywhere else.
@@ -114,3 +115,7 @@ Add these to your `.env` file:
 - If due dates are not parsed, inspect assignment text and adjust `_extract_due` patterns in `fetcher.py`.
 - To reset notifications, remove `lms_agent.db` (you will lose history).
 - If the program doesn't detect changes, check that `CHECK_INTERVAL_MINUTES` is set appropriately in `.env`.
+=======
+# NUST-LMS-Agent
+Local Python agent for NUST Moodle that tracks course updates and assignment deadlines and emails notifications—secure, read-only, scheduler-friendly.
+>>>>>>> 411e23e7fe7d9c034f0a0f2eef9d4a37f9d887d8
