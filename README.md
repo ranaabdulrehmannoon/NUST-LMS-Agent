@@ -1,5 +1,5 @@
 
-# NUST LMS Watcher (Local Agent)
+# NUST LMS Agent (Local Agent)
 
 Local-only agent that logs into the official NUST Moodle LMS with your credentials, monitors selected courses for new uploads and assignment deadlines, and emails you notifications via **SMTP**. Runs once per invocation (Task Scheduler/Cron-friendly). You keep your credentials locally; nothing is sent anywhere else.
 
